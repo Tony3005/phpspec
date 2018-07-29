@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  phpspec:
+    build:
+      context: ../
+    volumes:
+      - ../:/var/www/
